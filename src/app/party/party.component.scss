@@ -1,0 +1,71 @@
+::ng-deep .google-style {
+    margin-bottom: 16px; // Add some space between fields
+
+    mat-label {
+        font-size: 16px; // Increase label font size
+        font-weight: 500; // Make the label semi-bold
+        color: #5f6368; // Google-like grey color
+    }
+
+    mat-form-field-wrapper {
+        padding-bottom: 1.25em; // Adjust padding for the field wrapper
+    }
+
+    mat-form-field-flex {
+        border-width: 1px; // Set border width
+        border-radius: 4px; // Set border radius
+    }
+
+    mat-form-field-outline {
+        border-color: #dfe1e5; // Light grey border
+    }
+
+    mat-form-field-outline-end,
+    mat-form-field-outline-start {
+        border-radius: 4px; // Rounded corners
+    }
+
+    mat-form-field-underline {
+        display: none; // Hide the underline
+    }
+
+    input.mat-input-element {
+        padding: 8px; // Padding inside the input field
+        font-size: 16px; // Increase input font size
+        border-radius: 4px// Rounded corners for the input field
+    }
+        /* Apply styles to the mat-table */
+           /* Apply styles to the mat-table */
+           .mat-elevation-z8 {
+               width: 100%;
+               border: 1px solid #ccc;
+               border-radius: 5px;
+               overflow: hidden;
+           }
+    
+           /* Style header cells */
+           .mat-header-cell {
+               font-weight: bold;
+               background-color: #f2f2f2;
+               padding: 10px;
+               border-right: 1px solid #ccc;
+               /* Add vertical line */
+           }
+    
+           /* Style cell content */
+           .mat-cell {
+               padding: 10px;
+               border-right: 1px solid #ccc;
+               /* Add vertical line */
+           }
+    
+           /* Style actions buttons */
+           .mat-icon-button {
+               margin-right: 5px;
+           }
+    
+           /* Style hover effect on rows */
+           .mat-row:hover {
+               background-color: #e0e0e0;
+           }
+        }
